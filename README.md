@@ -31,3 +31,6 @@ git config --global user.name
 ```
 git config --global user.email
 ```
+```
+conda install -p c:\Users\admi\Desktop\ineuron\Knaik_sir\Boston_proj\bostonhousepricing\venv ipykernel --update-deps --force-reinstall
+```
