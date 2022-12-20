@@ -1,4 +1,7 @@
-## Boston House Pricing Prediction
+## Boston House Pricing Prediction with deployment
+
+This is just a demo project to learn the pickling, dockerization and deployment process.
+The dataset has taken from sklearn library of python.
 
 ### Software & Tools Requirements
 
@@ -23,7 +26,7 @@ conda activate venv
 ```
 Give the full path if above command dosent work
 ```
-conda activate C:\Users\admi\Desktop\ineuron\Knaik_sir\Boston_proj\bostonhousepricing\venv
+conda activate C:\Users\admi\Desktop\bostonhousepricing\venv
 ```
 Install all the dependencies
 ```
@@ -36,8 +39,4 @@ git config --global user.name
 To check email of git
 ```
 git config --global user.email
-```
-install preexisted venv
-```
-conda install -p c:\Users\admi\Desktop\ineuron\Knaik_sir\Boston_proj\bostonhousepricing\venv ipykernel --update-deps --force-reinstall
 ```
