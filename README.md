@@ -40,3 +40,20 @@ To check email of git
 ```
 git config --global user.email
 ```
+Steps to run it in [docker playgroung](https://labs.play-with-docker.com/)
+
+Step:1 Clone the repository
+```
+git clone https://github.com/manish7065/bostonhousepricing.git
+```
+Step:2 Chande the directory
+```
+cd bostonhousepricing
+```
+Step:3 Build the docker
+```
+docker build -t demo:latest
+```
+Step:4 Runthe docker on port 8080 you can get the inmage ID by using 'docker images' command
+```
+docker run -p 8080:8000 -e PORT=8000 <Image ID>
